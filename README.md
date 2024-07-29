@@ -45,3 +45,13 @@ A repository for UNIX command lines
 | nano    | Standard text editor |
 | df      | Disk free |
 | top     | Show top running processes |
+
+
+-----------
+
+### Unix concepts - Piping
+- Uses the "|" symbol
+- passes the result of the command on the left to the command to the right of the pipe
+  - eg. ifconfig | grep inetaddr
+- The passed data is text
+  - So text parsing, filtering and manipulation could be required.
