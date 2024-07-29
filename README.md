@@ -28,3 +28,9 @@ A repository for UNIX command lines
 | mv      | Move / Rename |
 | tar     | Tape archiving |
 | chmod   | Set file system permissions |
+| whoami  | Show current login name |
+| passwd  | Set current user password |
+| ssh     | Use secure shell to remotely manage a host |
+| logout  | Log current user out |
+| grep    | Line filtering |
+| awk     | Regular expression filtering |
