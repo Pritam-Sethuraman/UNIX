@@ -54,3 +54,14 @@ A repository for UNIX command lines
   - eg. ifconfig | grep inetaddr
 - The passed data is text
   - So text parsing, filtering and manipulation could be required.
+
+### Common Unix Shells
+- bash /sh
+- korn
+- c shell
+- zsh
+
+> [!TIP]
+> View current shell by echo $shell
+> To change to a C shell while logged in: tcsh
+> To permanently change to a C shell: chsh
