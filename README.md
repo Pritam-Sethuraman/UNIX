@@ -63,5 +63,9 @@ A repository for UNIX command lines
 
 > [!TIP]
 > View current shell by echo $shell
+
+> [!TIP]
 > To change to a C shell while logged in: tcsh
+
+> [!TIP]
 > To permanently change to a C shell: chsh
