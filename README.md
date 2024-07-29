@@ -15,7 +15,10 @@ A repository for UNIX command lines
       - man 5 crontab (Configuration file help)
       - man 1 ls (1 means it is a standard user cmd)
       - man 8 ping (8 means it is a system admin cmd)
-- Common Unix Commands:
+
+--------
+
+### Common Unix Commands:
 
 | Command | Description |
 | ------- | ----------- |
@@ -34,3 +37,11 @@ A repository for UNIX command lines
 | logout  | Log current user out |
 | grep    | Line filtering |
 | awk     | Regular expression filtering |
+| cat     | Display text file contents  |
+| head    | Display first xx lines from a text file |
+| tail    | Display last xx lines from a text file |
+| vi      | Standard text editor |
+| vim     | Standard text editor |
+| nano    | Standard text editor |
+| df      | Disk free |
+| top     | Show top running processes |
