@@ -17,6 +17,7 @@ A repository for UNIX command lines
       - man 8 ping (8 means it is a system admin cmd)
 
 --------
+## Unix Command Overview
 
 ### Common Unix Commands:
 
@@ -47,9 +48,7 @@ A repository for UNIX command lines
 | top     | Show top running processes |
 
 
------------
-
-### Unix concepts - Piping
+### Unix Concept - Piping
 - Uses the "|" symbol
 - passes the result of the command on the left to the command to the right of the pipe
   - eg. ifconfig | grep inetaddr
