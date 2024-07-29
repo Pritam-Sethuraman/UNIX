@@ -69,3 +69,10 @@ A repository for UNIX command lines
 
 > [!TIP]
 > To permanently change to a C shell: chsh
+
+### Common Unix Shell Variables
+- $USER
+- $SHELL
+- $PATH
+- $DISPLAY
+- $EDITOR
