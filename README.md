@@ -89,3 +89,4 @@ A repository for UNIX command lines
 | wc      | Returns word count in t he format - Lines Words BytesOfData |
 | od      | Octal dump |
 | pr      | Opens the file in a report format with date and page number |
+| join    | Joins the files |
