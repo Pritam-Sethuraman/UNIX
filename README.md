@@ -39,7 +39,7 @@ A repository for UNIX command lines
 | grep    | Line filtering |
 | awk     | Regular expression filtering |
 | cat     | Display text file contents  |
-| head    | Display first xx lines from a text file |
+| head    | Display first 10 lines from a text file unless specified |
 | tail    | Display last xx lines from a text file |
 | vi      | Standard text editor |
 | vim     | Standard text editor |
@@ -76,3 +76,16 @@ A repository for UNIX command lines
 - $PATH
 - $DISPLAY
 - $EDITOR
+
+--------
+
+## Advanced GNU & UNIX Commands
+
+| Command | Description |
+| ------- | ----------- |
+| tac     | Will display the contents of the file in reverse order |
+| /       | to search for a something in a file. |
+| nl      | line numbering when opening a file |
+| wc      | Returns word count in t he format - Lines Words BytesOfData |
+| od      | Octal dump |
+| pr      | Opens the file in a report format with date and page number |
