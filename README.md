@@ -110,3 +110,16 @@ A repository for UNIX command lines
 | /etc  | Configuration Files  |
 | /lib  | Shared Library Files |
 | /boot | Boot Files           |
+
+### Permission Flags
+
+| Notation | Value | Description             |
+|----------|-------|-------------------------|
+| ---      | 0     | No permissions          |
+| --x      | 1     | Execute                 |
+| -w-      | 2     | Write                   |
+| -wx      | 3     | Write and Execute       |
+| r--      | 4     | Read                    |
+| r-x      | 5     | Read and Execute        |
+| rw-      | 6     | Read and Write          |
+| rwx      | 7     | Read, Write and Execute |
