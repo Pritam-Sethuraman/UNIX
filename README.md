@@ -123,3 +123,17 @@ A repository for UNIX command lines
 | r-x      | 5     | Read and Execute        |
 | rw-      | 6     | Read and Write          |
 | rwx      | 7     | Read, Write and Execute |
+
+### Extented ACLs
+- Provides additional capabilities
+  - Beyond standard Unix file system permissions
+  - Different permissions for more than a single user
+  - Different permissions for more than a single group
+- setfacl
+  - Used to set extended ACL file system permissions
+  - setfacl -m u:chrisblack:rx /file1.txt ( To add xACL to user/grp )
+  - setfacl -m u:jakemartin:rwx,g:helpdesk_east:rx /tickets.txt
+  - setfacl -x chrisblack /budget (to remove xACL for user/grp from file/dir )
+  - setfacl -b /budget (To remove all xACL from the dir)
+- getfacl
+  - Used to 
