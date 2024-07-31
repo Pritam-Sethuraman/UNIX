@@ -90,3 +90,12 @@ A repository for UNIX command lines
 | od      | Octal dump |
 | pr      | Opens the file in a report format with date and page number |
 | join    | Joins the files |
+
+
+----------
+
+## UNIX File System
+
+| Partition | Mountpoint | File System | Options | Backed up by dump? | FSCK Check Order Upon Boot |
+| --------- | ---------- | ----------- | ------- | ------------------ | -------------------------- |
+| /da0p1    | / | ufs or zfs or jfs or etc | rw or r or w | 1 or 0 | 1 or 0 |
