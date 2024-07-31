@@ -99,3 +99,14 @@ A repository for UNIX command lines
 | Partition | Mountpoint | File System | Options | Backed up by dump? | FSCK Check Order Upon Boot |
 | --------- | ---------- | ----------- | ------- | ------------------ | -------------------------- |
 | /da0p1    | / | ufs or zfs or jfs or etc | rw or r or w | 1 or 0 | 1 or 0 |
+
+### Standard File System Directories
+
+| Path  | Description |
+| ----  | ----------- |
+| /     | Root Directory       |
+| /bin  | Binaries             |
+| /dev  | Devices              |
+| /etc  | Configuration Files  |
+| /lib  | Shared Library Files |
+| /boot | Boot Files           |
